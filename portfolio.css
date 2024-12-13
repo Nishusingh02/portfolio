@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(67, 62, 62, 0.18); 
+}
+.main-top{
+    height: 10%;
+    width: 100%;
+    background-color: grey;
+    box-shadow: 10px 10px 10px black;
+}
+.main-top p{
+    font-size: 35px; 
+    font-weight: 900;
+    text-transform: capitalize;
+    color: maroon;
+    position: relative;
+    left: 12%;
+    top: 25%;
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+}
+@keyframes colorAnimate {
+    0%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: maroon;
+    }
+}
+.main-top a{
+    font-size: 18px;
+    font-weight: 900;
+ position: relative;
+ left: 60%;
+ margin: 15px;
+ color: white;
+}
+.main-top a:hover{
+    color: maroon;
+    text-decoration: underline;
+}
+.main-bottom{
+    height: 90%;
+    width: 100%;  
+    display: flex;
+}
+.main-left{
+    height: 100%;
+    width: 40%;
+}
+.main-image{
+    height: 490px;
+    width: 400px;
+    background-image:url(images/myphoto-removebg-preview.png);
+    background-color: gray;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+    box-shadow: 16px 32px 64px black;
+}
+main.write{
+    height: 100%;
+    width: 60%;
+}
+.main-text{
+height: 500px;
+width: 600px;
+/* background-color: blue; */
+position: relative;
+top: 13%;
+left: 13%;
+}
+.main-text h2{
+color: black;
+font-weight: 900;
+font-size: 40px;
+}
+.main-text h1{
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.main-text h1 b{
+    color: brown;
+    font-weight: 900;
+}
+.main-text p{
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
+    top: 2%;
+    opacity: 0.7;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+#btn-1{
+padding-top: 10px;
+padding-left: 4%;
+padding-bottom: 10px;
+padding-right: 4%;
+color: white;
+background-color: maroon;
+position: relative;
+top: 115px;
+border: none;
+font-size: 20px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px rgb(46, 6, 6);
+}
+#btn-1:hover{
+    background-color: black;
+}
+#btn-2{
+    padding-top: 10px;
+    padding-left: 4%;
+    padding-bottom: 10px;
+    padding-right: 4%;
+    color: white;
+    background-color: rgb(46, 6, 6);
+    position: relative;
+    top: 115px;
+    left: 15px;
+    border: none;
+    font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(46, 6, 6);
+    }
+    #btn-2:hover{
+        background-color: maroon;
+    }
+.main-text i{
+font-size: 40px;
+position: relative;
+top: 55px;
+color: black;
+box-shadow: 2px 4px 8px black;
+margin: 10px;
+border-radius: 40%;
+}
+/* ............page-2............. */
+.main2{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+.main2-top{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(147, 144, 144);
+}
+.main2-top h1{
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+}
+.main2-midle{
+    height: 30%;
+    width: 100%;
+    /* background-color: pink; */
+    border: 5px solid black;
+}
+.main2-skills{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.main2-skills1{
+    height: 90%;
+    width: 35%;
+    /* background-color: blueviolet; */
+    margin: 10px;
+    border: 5px solid black;
+    background-color: whitesmoke;
+}
+.skills1-image{
+    height: 100px;
+    width: 80px;
+    background-image: url(images/hhtml.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 8px 16px black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+.main2-skills1 h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     top: 17%;
+     left: 26%;
+ }
+.main2-skills2{
+    height: 90%;
+    width: 35%;
+    /* background-color: blueviolet; */
+    margin: 10px;
+    border: 5px solid black;
+    background-color: whitesmoke;
+}
+.skills2-image{
+    height: 100px;
+    width: 80px;
+    background-image: url(images/Css.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 8px 16px black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+.main2-skills2 h1{
+   font-size: 40px;
+   font-weight: 900;
+   font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 17%;
+    left: 30%;
+}
+.main2-skills3{
+    height: 90%;
+    width: 35%;
+    /* background-color: blueviolet; */
+    margin: 10px;
+    border: 5px solid black;
+    background-color: whitesmoke;
+}
+.skills3-image{
+    height: 100px;
+    width: 80px;
+    background-image:url(images/Jsss.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 8px 16px black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+   
+}
+.main2-skills3 h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     top: 110%;
+    right: 80%;
+ }
+.main2-skills4{
+    height: 90%;
+    width: 35%;
+    /* background-color: blueviolet; */
+    margin: 10px;
+    border: 5px solid black;
+    background-color: whitesmoke;
+}
+.skills4-image{
+    height: 100px;
+    width: 80px;
+    background-image:url(images/java3.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 8px 16px black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+.main2-skills4 h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     top: 17%;
+     left: 26%;
+ }
+ .main2-top2{
+    height: 10%;
+    width: 100;
+    background-color: rgb(147, 144, 144);
+    margin-top: 10px;
+    border: 2px solid black;
+ }.main2-top2 h1{
+font-weight: 900;
+font-size: 50px;
+text-align: center;
+ }
+ .project{
+    height: 37%;
+    width: 100%;
+    box-shadow: 4px 8px 16px black;
+    margin-top: 15px;
+    border: 5px solid black;
+ }
+ .project h2{
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 20px;
+    font-weight: 900;
+    position: relative;
+    left: 10px;
+ }
+ .project li{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    opacity: 0.7;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+ }
+ /* ...........3rd Page............. */
+ .main3{
+    height: 100%;
+    width: 100%;
+   background-color: whitesmoke;
+  }
+ 
+ .main3-top{
+    height: 50%;
+    width: 100%;
+   box-shadow: 4px 8px 16px rgb(2, 4, 6);
+ }
+ .main3-top-1{
+ height: 25%;
+ width: 100%;
+ background-color: rgb(147, 144, 144);
+ box-shadow: 8px 16px 32px rgb(12, 12, 12);
+ text-align: center;
+ border: 5px solid black;
+ }
+ .main3-top-1 h1{
+ /* color: white; */
+ font-size: 60px;
+ }
+ .main3-top-2{
+    height: 70%;
+    width: 100%;
+    border: 5px solid black;
+    margin-top: 10px;
+    /* color: white; */
+ }
+ .main3-top-2 h3{
+ font-size: 24px;
+ font-weight: 900;
+ position: relative;
+ left: 50px;
+ top: 60px;
+ }
+ .main3-top-2 h4{
+    font-size: 24px;
+    font-weight: 900;
+ position: relative;
+ left: 50px;
+ top: 80px;
+    }
+    .main3-top-2 h2{
+       font-size: 24px;
+       font-weight: 900;
+    position: relative;
+    left: 50px;
+    top: 70px;
+       }
+       .main3-top-2 h2 b{
+          opacity: 0.7;
+          font-size: 20px;
+       }
+       .main3-top-2 h3 b{
+          opacity: 0.7;
+          font-size: 20px;
+       }
+       .main3-top-2 h4 b{
+          opacity: 0.7;
+          font-size: 20px;
+       }
+ .main3-bottom{
+    height: 50%;
+    width: 100%;
+   box-shadow: 4px 8px 16px rgb(12, 12, 12);
+ }
+ .main3-bottom-1{
+    height: 90%;
+    width: 100%;
+    border: 5px solid black;
+    margin-top: 15px;
+    /* color: white; */
+ }
+ .main3-bottom-1 h1{
+    font-size: 45px;
+    font-weight: 900;
+  text-decoration: underline;
+  position: relative;
+  left: 30px;
+  top: 20px;
+ }
+ .main3-bottom-1 a{
+    /* color: white; */
+    position: relative;
+    top: 40px;
+    left: 45px;
+    line-height: 30px;
+ }
